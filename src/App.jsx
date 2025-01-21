@@ -8,7 +8,7 @@ export default class App extends React.Component {
     super(props);
     this.state = {
       text: `# H1 Heading
-  # H2 Sub-heading
+  ## H2 Sub-heading
   - List item 1
   - List item 2
 

@@ -20,6 +20,11 @@ export default class Previewer extends React.Component {
       marginRight: "auto",
       padding: "10px",
     };
+
+    marked.setOptions({
+      breaks: true,
+    });
+     
     return (
       <div style={outputStyle}>
         <div
